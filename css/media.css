@@ -1,0 +1,186 @@
+@media screen and (max-width: 480px) {
+
+    .header_top_menu, .firs_screen_right, .second_screen_left, .one img, .two img, .third img,
+    .dbody1 img, .dbody2 img, .dbody3 img, .six_screen_right img, .top img, .image{
+        display: none;
+    }
+    body{
+        width: 370px;
+    }
+    .wrapper {
+        padding: 0 20px;
+    }
+
+    .first_screen {
+        padding-bottom: 50px;
+        /*height: 100vh;*/
+        /*background: darkslateblue;*/
+    }
+
+    .firs_screen_left {
+        height: 240px;
+        padding-top: 40px;
+    }
+
+    .firs_screen_left h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .firs_screen_button {
+        position: initial;
+        margin: 50px auto 0;
+    }
+
+    .button_mobile {
+        display: flex;
+
+    }
+
+    .second_screen {
+        padding-bottom: 100px;
+        /*height: 100vh;*/
+        /*background: saddlebrown;*/
+    }
+
+    .second_screen_right {
+        height: 240px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .second_screen_right h2 {
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 60px;
+        color: black;
+        padding-top: 50px;
+        padding-left: 20px;
+}
+    .one h3 {
+        padding-top: 0;
+    }
+    .third_screen {
+        display: block;
+    }
+    .text1 {
+        background-color: white;
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .four_screen {
+        background-color: white;
+    }
+    .four_screen_grid {
+        display: block;
+    }
+    .five_screen {
+        display: block;
+    }
+    .screen_left {
+        padding-top: 0;
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .screen_right {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .six_screen_left h2 {
+        padding-top: 30px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+}
+    .button_six {
+        position: initial;
+        margin: 0 auto 0;
+        padding-top: 40px;
+        padding-left: 140px;
+    }
+    .six_screen_right {
+        margin: 0;
+        padding: 0;
+    }
+    .font_blue {
+        background-color: white;
+         margin: 0;
+        height: auto;
+        width: auto;
+}
+    .font_blue h2 {
+        padding-top: 30px;
+        width: auto;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .font_blue p {
+        padding-top: 45px;
+    }
+    .font_blue button {
+    margin-top: 60px;
+    margin-left: 140px;
+    }
+    .end {
+        background-color: white;
+        color: black;
+    }
+    .end_screen_top h3 {
+        padding-left: 0;
+        color: black;
+    }
+    .tree h4 {
+        color: black;
+    }
+    .tree p {
+        color: black;
+        padding-top: 0;
+    }
+    .tree {
+        display: block;
+        padding-left: 0;
+    }
+    .one {
+        padding-top: 20px;
+    }
+    .two {
+        padding-top: 15px;
+        padding-left: 0;
+    }
+    .three {
+        padding-top: 15px;
+        padding-left: 0;
+    }
+    .four {
+        padding-top: 15px;
+        padding-left: 0;
+    }
+    .five {
+        padding-top: 15px;
+        padding-left: 0;
+    }
+    .botton {
+        padding-top: 50px;
+    }
+    .botton h4{
+        color: black;
+    }
+    .botton p{
+        padding-top: 0;
+        color: black;
+    }
+    .ended {
+        width: 460px;
+        column-gap: 15px;
+    }
+    .ended p {
+        font-size: 12px;
+        color: black;
+    }
+}
+
+

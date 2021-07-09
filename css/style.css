@@ -1,0 +1,475 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    width: 1440px;
+}
+.wrapper {
+padding: 0 110px;
+}
+.disp-flex {
+    display: flex;
+}
+.aligc-center {
+    align-items: center;
+}
+.header_top {
+    height: 100px;
+}
+.header_top_grid {
+    column-gap: 141px;
+}
+.header_top_nav_menu {
+    column-gap: 22px;
+}
+.nav_menu_items a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.header_top_buttons {
+    margin-left: 27px;
+    column-gap: 18px;
+}
+.header_top_buttons_login, .header_top_buttons_expert, .firs_screen_button button {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+.header_top_buttons_login, .header_top_buttons_expert:hover, .firs_screen_button button:hover {
+    background: white;
+    color: black;
+}
+.header_top_buttons_expert, .header_top_buttons_login:hover {
+    background: black;
+    color: white;
+}
+.firs_screen_left {
+    height: 520px;
+    padding-top: 100px;
+    max-width: 490px;
+}
+.firs_screen_left h1 {
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 83px;
+    color: black;
+    margin-bottom: 27px;
+}
+.firs_screen_left p {
+    font-size: 20px;
+    line-height: 31px;
+    color: black;
+}
+.first_screen_grid {
+    column-gap: 65px;
+}
+.first_screen {
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+
+}
+.firs_screen_button {
+    width: 220px;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: -33px;
+    left: 110px;
+
+}
+.firs_screen_button h4 {
+    padding-top: 130px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.firs_screen_button button {
+    background-color: black;
+    font-size: 22px;
+    margin-top: 27px;
+    color: white;
+}
+.second_screen_left {
+    padding-top: 210px;
+
+}
+.second_screen_right {
+    padding-top: 196px;
+    max-width: 600px;
+    padding-left: 104px;
+}
+.second_screen_right h2 {
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 58px;
+    color: black;
+}
+.second_screen_right p {
+    padding-top: 33px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: black;
+}
+.title {
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    color: black;
+    padding-top: 133px;
+    padding-left: 110px;
+}
+.third_screen {
+    padding-top: 82px;
+    column-gap: 69px;
+}
+.one h3 {
+    padding-top: 24px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: black;
+}
+.one p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    padding-top: 10px;
+    max-width: 295px;
+}
+.two h3 {
+    padding-top: 24px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: black;
+}
+.two p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    max-width: 292px;
+    padding-top: 9px;
+}
+.third h3 {
+    padding-top: 24px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: black;
+}
+.third p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    padding-top: 10px;
+    max-width: 272px;
+}
+.third_screen_button {
+    position: relative;
+    top: 71px;
+    left: 110px;
+}
+.third_screen_button button {
+    width: 235px;
+    height: 50px;
+    border-radius: 100px;
+    background: #F7B2B7;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+.third_screen_button button:hover {
+    background: yellowgreen;
+    color: brown;
+}
+.four_screen {
+    height: 705px;
+    background: #FDECED;
+    padding-top: 88px;
+    column-gap: 69px;
+
+}
+.four_screen_grid {
+    column-gap: 69px;
+
+}
+.four_screen_grid h2 {
+    padding-top: 88px;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 58px;
+    color: black;
+}
+.text1 {
+    margin-top: 126px;
+    padding-top: 88px;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 58px;
+    background: #FDECED;
+    box-sizing: border-box;
+}
+.dbody1 h3 {
+    padding-top: 24px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: black;
+}
+.dbody1 p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    padding-top: 10px;
+    max-width: 304px;
+}
+.dbody2 h3 {
+    padding-top: 24px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: black;
+}
+.dbody2 p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    max-width: 302px;
+    padding-top: 10px;
+}
+.dbody3 h3 {
+    padding-top: 24px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: black;
+}
+.dbody3 p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    padding-top: 10px;
+    max-width: 294px;
+}
+.screen_left {
+    display: flex;
+    padding-top: 129px;
+    width: 236px;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 36px;
+    color: black;
+
+}
+.screen_right {
+    justify-content: center;
+    align-items: center;
+    padding-top: 129px;
+    padding-left: 138px;
+}
+.six_screen_left h2 {
+    padding-top: 300px;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    color: black;
+}
+.six_screen_left p {
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: black;
+    max-width: 547px;
+}
+.six_screen_right {
+    padding-top: 200px;
+    padding-left: 120px;
+}
+.screen_three {
+    padding-left: 0;
+}
+.button_six {
+    padding-top: 80px;
+}
+.button_six button {
+    width: 140px;
+    height: 50px;
+    border-radius: 100px;
+    background: #F7B2B7;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+.button_six button:hover {
+    background: yellowgreen;
+    color: brown;
+}
+.font_blue {
+    margin: 145px 108px;
+    background: #8BD4D6;
+    border-radius: 10px;
+    height: 283px;
+    width: 1150px;
+}
+.text2 {
+
+}
+.text2 h2 {
+    padding-top: 80px;
+    height: 56px;
+    width: 615px;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    color: black;
+}
+.text2 p {
+    padding-top: 60px;
+    height: 31px;
+    width: 234px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+}
+.font_blue button {
+    margin-top: -30px;
+    margin-left: 750px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    height: 50px;
+    width: 159px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+.font_blue button:hover {
+    background: white;
+    color: black;
+}
+.end {
+    height: 631px;
+    background: #302E3F;
+}
+.end_screen_top h3 {
+    padding-top: 54px;
+    padding-left: 18px;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    color: white;
+}
+.tree {
+    padding-top: 50px;
+    padding-left: 0;
+}
+.tree h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+.tree p{
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #C5E9EA;
+}
+.two {
+    padding-left: 70px;
+}
+.three {
+    padding-left: 65px;
+}
+.four {
+    padding-left: 75px;
+}
+.five {
+    padding-left: 120px;
+}
+.botton {
+    padding-top: 80px;
+}
+.botton h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+.botton p {
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #C5E9EA;
+}
+.ended {
+    column-gap: 40px;
+    padding-top: 55px;
+}
+.image {
+    position: absolute;
+    padding-left: 1050px
+}
+.ended p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #C5E9EA;
+}
+.button_mobile {
+    display: none;
+    height: 60px;
+    width: 60px;
+    border: 1px solid grey;
+    justify-content: center;
+}
+.button_mobile span {
+    display: block;
+    width: 80%;
+    height: 5px;
+    background-color: brown;
+    position: relative;
+}
+.button_mobile span::before, .button_mobile span::after{
+    content:'' ;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    position: absolute;
+}
+.button_mobile span::before {
+    top: -10px;
+}
+.button_mobile span::after {
+    bottom: -10px;
+}
